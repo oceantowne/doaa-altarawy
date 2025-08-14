@@ -1,0 +1,32 @@
+# Model artifacts
+runs/
+**/weights/
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.mlpackage
+
+# Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Datasets: keep structure, ignore images by default
+# Keep .gitkeep placeholders for empty dirs
+# Images
+datasets/**/images/**
+!datasets/**/images/.gitkeep
+# Labels
+!datasets/**/labels/**
+
+# Environments
+.venv/
+.env
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

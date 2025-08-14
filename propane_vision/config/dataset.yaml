@@ -1,0 +1,9 @@
+# YOLOv8 dataset configuration for propane tank detection
+# Update paths if you change project location
+path: datasets/propane_tanks
+train: images/train
+val: images/val
+
+default_nc: 1
+names:
+  - propane_tank
